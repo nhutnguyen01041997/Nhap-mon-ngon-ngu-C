@@ -14,15 +14,15 @@ int e, f, g;
 printf("Bien a = %d va bien b = %d",a,b);
 e = a + b;
 // khai bao bien f va khoi tao
-int f = ((a +b) - c) * d;
+f = ((a +b) - c) * d;
 printf("\n");
 printf("Tong a + b = %d",e);
 printf("\n");
 printf("Tong %d + %d = %d",a,b,e);
 printf("\n");
-printf("((a + b) - c) * d = f",f);
+printf("Tong((a + b) - c) * d = f",f);
 printf("\n");
-printf("((%d + %d) - %d) * %d = %d",a,b,c,d,f);
+printf("Tong((%d + %d) - %d) * %d = %d",a,b,c,d,f);
 getchar();
 return 0;
 }
