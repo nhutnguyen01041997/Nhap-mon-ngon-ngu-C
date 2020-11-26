@@ -2,29 +2,11 @@
 
 int main(void) {
 	//Khai bao bien a, b
-    int a, b;
-    a = 3;
-    b = 5;
-    //khai bao bien tong, hieu, tich, thuong
-    int tong , hieu, tich, thuong;
-    tong = a + b;
-    hieu = a - b;
-    tich = a * b;
-    thuong = a / b;
+    int a = 3, b = 5;
+    double c = 3 , d = 5;
     
-    printf(" tong = %d\n ", tong);
-    
-    printf(" thuong = %d\n", hieu);
-    
-    printf(" tich = %d\n", tich);
-    
-    printf(" thuong = %d\n", thuong);
-    
-    
-    double c = 3;
-    double d = 5;
-     printf("thuong = %0.1f\n", c/d);
-	
+    printf("a\t b\t a+b\t a-b\t a*b\t a/b\t \n");
+    printf("%d\t %d\t %d\t %d\t %d\t %f\t \n",a,b,a+b,a-b,a*b,c/d);
 	getchar();
 	return 0;
 }
