@@ -1,12 +1,12 @@
 #include <stdio.h>
 
  
-
+#define PI 3.14
 int main(){
 	//khai bao bien va gan gia tri kieu double
-	double R=2.5;
-  double PI=3.14;
-	double CV,DT;
+	double R=2.5; //ban kinh 
+  
+	double CV,DT; //khai bao Chu vi va Dien Tich 
   CV= 2*R*PI;
   DT= R*R*PI;
     
