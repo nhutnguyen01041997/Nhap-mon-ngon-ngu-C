@@ -10,9 +10,9 @@ int main(void) {
   scanf("%lf",&V);
   printf("Nhap Diem Toan T = ");//nhap tu ban phim
   scanf("%lf",&T);
-  //tieu de
+  //Hien thi tieu de
   printf("Diem Van(V)\t Diem Toan(T)\t Diem Trung Binh(DTB)\t \n");
-  //ket qua
+  //Hien Thi ket qua
   printf("%.2f\t         %.2f\t          %.2f\t \n",V, T, (V+T)/2);
 
   getchar();
