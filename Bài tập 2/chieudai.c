@@ -15,7 +15,7 @@ int main(void) {
   
   printf("nhap l = ");// nhap l tu ban phim
   scanf("%lf",&l);
-  printf("m\t cm\t mm\t  \n ");
+  printf("Met(m)\t Centimet(cm)\t Milimet(mm)\t  \n ");
   printf("%.lf\t %.lf\t %.lf\t \n", l*1, l*100,l*1000  );
    
   getchar();
