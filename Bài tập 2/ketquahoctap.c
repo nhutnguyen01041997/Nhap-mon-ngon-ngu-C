@@ -12,7 +12,7 @@ int main(void) {
   scanf("%lf",&T);
   //Hien thi tieu de
   printf("Diem Van(V)\t Diem Toan(T)\t Diem Trung Binh(DTB)\t \n");
-  //Hien Thi ket qua
+  //Hien thi ket qua
   printf("%.2f\t         %.2f\t          %.2f\t \n",V, T, (V+T)/2);
 
   getchar();
