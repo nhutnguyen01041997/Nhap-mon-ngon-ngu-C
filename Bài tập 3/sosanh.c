@@ -3,10 +3,12 @@
 int main (){
   //khai bao bien bằng kiểu int
   int a, b;
-  printf("nhap a tu ban phim a =");//hiên thi ra man hinh a
+//nhap du lieu tu ban phim
+  printf("nhap a tu ban phim a =");
   scanf("%d", &a);
-  printf("nhap b tu ban phim b =");// hien thi ra man hinh b
+  printf("nhap b tu ban phim b =");
   scanf("%d", &b);
+// so sanh 2 so a va b	
   if(a > b){
     printf("a > b"  );
    }
