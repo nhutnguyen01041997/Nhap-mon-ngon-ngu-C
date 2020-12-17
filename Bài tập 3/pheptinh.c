@@ -10,16 +10,16 @@ scanf("%c", &pt);
 //su dung cau lenh switch de hien thi phep tinh +, -, *, / trong phuong trinh 
 switch(pt){
   case '+':
-  printf("%d", a + b);
+  printf("a + b = %d", a + b);
   break;
   case '-':
-  printf("%d",a - b );
+  printf("a - b = %d",a - b );
   break;
   case '*':
-  printf("%d", a * b);
+  printf("a * b = %d", a * b);
   break;
   case '/':
-  printf("%d", a / b);
+  printf("a / b = %d", a / b);
     //nhac nho khi nhap sai
     default:
     printf("dau vao khong hop le, vui long nhap +, -, *, /");
