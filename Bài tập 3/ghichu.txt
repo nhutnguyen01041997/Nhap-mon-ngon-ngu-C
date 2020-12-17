@@ -1,0 +1,2 @@
+braek dùng để ngắt lệnh phía trên , nếu không sẽ thực hiện 2 lệnh cùng lúc
+không sử dụng break dưới default vì nó là lệnh cuối cùng
