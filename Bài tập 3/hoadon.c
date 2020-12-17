@@ -6,7 +6,7 @@ int main (){
   printf ("Nhap soluong = ");// nhap gia tri tu ban phim
   scanf ("%lf",&soluong);
   //tinh gia tri thanhtien 
-  if (soluong <5){
+  if (soluong < 5 && dongia < 500){
   thanhtien = dongia * soluong;
   printf("thanhtien \n");
   printf("%.1f",thanhtien);
