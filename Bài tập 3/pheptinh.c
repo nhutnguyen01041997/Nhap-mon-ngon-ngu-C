@@ -7,7 +7,7 @@ int a =5, b = 2;
 char pt;
 printf("nhap phep tinh =");
 scanf("%c", &pt);
-//su dung cau lenh switch de hien thi phep tinh trong phuong trinh 
+//su dung cau lenh switch de hien thi phep tinh +, -, *, / trong phuong trinh 
 switch(pt){
   case '+':
   printf("%d", a + b);
