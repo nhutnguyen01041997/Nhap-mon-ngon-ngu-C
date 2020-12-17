@@ -1,30 +1,34 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main (){
-// khai bao bien thang kieu char duoc nhap tu ban phim
-int thang;
-printf("nhap phep tinh =");
-scanf("%d", &thang);
-//su dung cau lenh switch de hien thi thang
-switch(thang){
-  case 1:
-  printf("31 ngay");
-  break;
-  case 2:
-  printf("28 ngay");
-  break;
-  case 3:
-  printf("31 ngay");
-  break;
-  case 4:
-  printf("30 ngay");
-  
+int main() {
+	int thang;
+	scanf("%d", &thang);
+	switch (thang) {
+	case 2:
+		printf("28 ngay");
+		break;
+	case 4:
+  case 6:
+  case 9:
+  case 11:
+		printf("30 ngay");
+		break;
+   case 1:
+   case 3:
+   case 5:
+   case 7:
+   case 8:
+   case 10:
+   case 12:
+   printf("31 ngay");
+   break;
 
-  
-  
-    default:
-    printf("dau vao khong hop le, vui long nhap +, -, *, /");
-  }
+	
+	default : 
+		printf("Loi! vui long nhap 1-12");
+	}
+	return 0;
+}
 
 
      
