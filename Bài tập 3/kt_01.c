@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main(void) {
- int a = 2, b = 3, c = 4, d = 6, e =9; 
+ int n;
+ printf("bang cuu chuong");
+ scanf("%d", &n);
+ for(int i = 1; i <= 10 ; i++){
+   printf("%d * %d= %d\n",n, i, n*i);
+  }
 
- printf("bang cuu chuong 2\n");
- printf("2*1 = %d\n 2*2 = %d\n 2*3 = %d\n", a, c, d );
- printf("bang cuu chuong 3\n");
- printf("3*1 = %d\n 3*2 = %d\n 3*3 = %d\n", b, d, e);
- printf("bang cuu chuong 4\n");
- printf("4*1 = %d\n 4*2 = %d\n 4*3 = %d", c, a+d, d+d); 
+ 
  
   return 0;
 }
