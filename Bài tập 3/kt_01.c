@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main(void) {
-  int n;//khai báo 1 số nguyên n
-  printf("nhap vao bang cuu chuong");// hiển thi ra màn hình bảng cửu chương được nhập từ bàn phím
-  scanf("%d", &n);
-   for(int i = 1; i <= n; i++){// đặt điều kiện hiển thị ra bảng nhân số ....
-     printf("BẢNG NHÂN %d\n", i);
-    for (int j = 0; j <= 10; j++){// đặt điều kiện hiển thị ra phép nhân trong bảng cửu chương
-      printf("\t%d * %d = %d\n", i, j, i*j);
-      } 
-    }  
+ int a = 2, b = 3, c = 4, d = 6, e =9; 
+
+ printf("bang cuu chuong 2\n");
+ printf("2*1 = %d\n 2*2 = %d\n 2*3 = %d\n", a, c, d );
+ printf("bang cuu chuong 3\n");
+ printf("3*1 = %d\n 3*2 = %d\n 3*3 = %d\n", b, d, e);
+ printf("bang cuu chuong 4\n");
+ printf("4*1 = %d\n 4*2 = %d\n 4*3 = %d", c, a+d, d+d); 
+ 
   return 0;
 }
