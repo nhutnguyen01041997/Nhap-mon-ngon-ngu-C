@@ -1,3 +1,4 @@
+không dùng vòng lặp
 #include <stdio.h>
 
 int main(void) {
@@ -22,5 +23,31 @@ int main(void) {
    
 
   printf("%d", S);
+  return 0;
+}
+
+
+
+Vòng lặp for
+  #include <stdio.h>
+
+int main(void) {
+  
+  int n;
+  int S = 0;
+  int i;
+  printf("nhap so nguyen n =");
+  scanf("%d", &n);
+  for( ; n > 0; i++){
+  i = n % 10;
+  S += i;
+  n /= 10;
+ 
+ 
+
+   
+
+  printf("%d\n", S);
+  }
   return 0;
 }
