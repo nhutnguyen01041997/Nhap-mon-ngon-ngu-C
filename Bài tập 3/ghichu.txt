@@ -2,3 +2,29 @@ braek dùng để ngắt lệnh phía trên , nếu không sẽ thực hiện 2 
 không sử dụng break dưới default vì nó là lệnh cuối cùng
 count++ = count + 1
 https://hayhochoi.vn/ham-vlookup-cach-su-dung-va-bai-tap-ap-dung-vlookup.html
+
+
+VÒNG LẶP FOR
+for(khởi tạo bộ đếm; điều kiện; bước đếm){
+// các lệnh
+}
+VD:
+for(int i = 1; i <= 10 ; i++){
+   printf();
+}
+
+
+vÒNG LẶP WHILE
+Khởi tạo bộ đếm
+while(điều kiện)
+{
+//LỆNH THỰC THI
+bước đếm
+}
+VD:
+int i = 1;
+while(n>0){
+printf();
+i++;
+}
+
