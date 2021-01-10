@@ -28,7 +28,7 @@ switch(h){
 }
 return 0;
 }
- vòng lặp for
+ vòng lặp for TAM GIÁC CÂN ĐẦY
    #include<stdio.h>
 
 int main()
@@ -50,3 +50,28 @@ int main()
     return 0;
 }
 
+VÒNG LẶP FOR TAM GIÁC CÂN RỖNG
+
+#include<stdio.h>
+
+
+int main()
+{
+	int h;
+	printf("Nhap chieu cao tam giac h=");
+	scanf("%d",&h);
+	for (int i=h;i>0;i--)
+	{
+		for (int j=1;j<i;j++)
+			printf(" ");
+		for (int k=1;k<=(2*(h-i)+1);k++)
+			if ((k==1)||(k==(2*(h-i)+1))||(i==1)) // dòng này
+				printf("*");
+			else
+				printf(" ");
+		printf("\n");
+	}
+
+    
+    return 0;
+}
