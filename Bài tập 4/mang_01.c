@@ -13,7 +13,7 @@ int main(void) {
     S += arr[i];
   }
   // hien thi ra man hinh ket qua
-    printf("tong cua mang %d" , S);
+    printf("tong cua mang = %d" , S);
   
   
   return 0;
