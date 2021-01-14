@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-  // khai bao mang
+  // khai bao mang co 4 ngan
   int arr[4]={3, 5, 7,2};
   int S = 0;
   //tao vong lap hien thi cac so trong mang
