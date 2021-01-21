@@ -25,20 +25,20 @@ int main(void) {
       count++;
     }
     }
- int  j=0;
-for(int i=0;i<n;i++){
-  if(m==a[i]){
-    j+=1;
+ int  j = 0;
+for(int i = 0; i < n; i++){
+  if(m == a[i]){
+    j += 1;
     break;
 }
 }
- if(j>0){
+ if(j > 0){
  printf("\nco ton tai");
 }
  else
  printf("\nkhong ton tai");
     printf("\nchỉ so của phan tu %d :", m);
-    for(int i = 0;i < n; i++){
+    for(int i = 0; i < n; i++){
       if(a[i] == m)
       printf(" %d", i);
       }
