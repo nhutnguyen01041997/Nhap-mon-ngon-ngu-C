@@ -8,7 +8,7 @@ int main(void) {
   int a[n];
 
   for(int i = 0; i < n; i++){
-    printf("\nnhap phan tu so %d : ", i+1);
+    printf("\nnhap phan tu  a[%d] : ", i);
     scanf("%d", &a[i]);
   }
   printf("\nmang a :");
@@ -23,7 +23,29 @@ int main(void) {
       count++;
     }
     }
-    printf("so luong m = %d", count);  
+    printf("\nchỉ so cac phan tu");
+    for(int i = 0;i < n; i++){
+      if(a[i] == m)
+      printf(" %d", i);
+      }
+    int t=0;
+    for(int i=0;i<n;i++){
+      if(m==a[i]){
+        t+=1;
+        break;
+        }
+        if(t>0){
+          printf("\nco ton tai");break;
+          }
+          else{
+            printf("\nkhong ton tai");break;
+            }
+      }
+
+    printf("\nso luong m = %d", count);  
+
+
+
 
   return 0;
 }
