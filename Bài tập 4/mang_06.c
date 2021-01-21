@@ -25,7 +25,7 @@ int main(void) {
       count++;
     }
     }
- int  j;
+ int  j=0;
 for(int i=0;i<n;i++){
   if(m==a[i]){
     j+=1;
