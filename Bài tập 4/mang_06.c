@@ -1,49 +1,64 @@
-int main() {
-  //khai bao bien
-  int n,i,m,j,phantu=0;
-  printf("Nhap n : ");
+#include <stdio.h>
+
+
+
+int main(void) {
+  int n,m, j=0, count = 0;
+// nhập số nguyên n từ bàn phím
+  printf("nhap so nguyen n :");
   scanf("%d", &n);
-  //Tao mang a kich thuoc n
   int a[n];
-  //Nhap n phan tu cua mang a tu ban phim
-  for(i = 0;i < n;i++){
-  	printf("Phan tu o mang a[%d] : ",i);
+//nhâp phần tử n của mảng a từ bàn phím
+  for(int i = 0; i < n; i++){
+    printf("nhap phan tu  a[%d] : ", i);
     scanf("%d", &a[i]);
   }
-  //Hien thi cac phan tu cua mang a
-  printf("Cac phan tu o mang a : ");
-  for(i = 0;i < n;i++){
-    printf(" %d",a[i]);
+  // hiển thị mảng a
+  printf("\nmang a :");
+  for(int i = 0; i < n; i++){
+    printf(" %d", a[i]);  
   }
-  printf("\n");
-  //Nhap so nguyen m bat ki tu ban phim
-  printf("Nhap m : ");
+  //nhap so nguyen m tu ban phim
+  printf("\nnhap so nguyen m :");
   scanf("%d", &m);
-  for(i = 0;i < n;i++){
+  //kiểm tra m có tồn tại trong mang a hay không
+for(int i=0;i<n;i++){
+  if(m==a[i]){
+    j+=1;
+    break;
+}
+}
+ if(j>0){
+ printf("\nco ton tai");
+}
+ else
+ printf("\nkhong ton tai");
+ //đếm số lượng m trong mảng a
+ for(int i = 0; i < n; i++){
     if(a[i] == m){
+      count++;
       j+=1;
-      break;
     }
     }
-  //Kiem tra so nguyen 
-  if(j > 0){printf("Co ton tai");
-  printf("\n");
-  //Dem cac gia tri trong mang a
-  for(i = 0;i < n;i++){
-    if(a[i] == m ){
-      phantu+=1;
-    }
-    }
-  printf("so phan tu co gia tri %d : %d",m,phantu);
-  printf("\n");
-  //Hien thi chi so cac phan tu
-  printf("Chi so cac phan tu tren : ");
-  for(i = 0; i < n;i++  ){
-    if(a[i]==m){
-      printf("%d ",i);
+     if(j>0){
+      printf("\nso luong m = %d", count);
+      }
+      else{
+      printf("");
+      }
+ 
+ // hiển thi chỉ số phần tử của m trong mang a
+ if(j>0){
+ printf("\nchỉ so của phan tu %d:",m);
   }
-  }
-  }
-  else(printf("Khong ton tai"));
+else{
+  printf("");
+}
+    for(int i = 0;i < n; i++){
+      if(a[i] == m){
+      printf(" %d", i);
+      }
+      }
+      
   return 0;
 }
