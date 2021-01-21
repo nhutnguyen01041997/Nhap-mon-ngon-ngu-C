@@ -37,6 +37,7 @@ for(int i=0;i<n;i++){
 }
  else
  printf("\nkhong ton tai");
+  
  for(int i = 0; i < n; i++){
  if(a[i] == m){
  j+=1;
