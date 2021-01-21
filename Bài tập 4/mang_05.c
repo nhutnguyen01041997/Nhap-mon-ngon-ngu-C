@@ -20,7 +20,7 @@ int main(void) {
     printf("\nnhap so nguyen m :");
     scanf("%d", &m);
   //kiem tra phan tu m co ton tai trong mang a hay khong neu 
-  int j;
+  int j= 0 ;
   for(int i = 0; i < n; i++ ){
     if(a[i] == m){
       j+=1;
