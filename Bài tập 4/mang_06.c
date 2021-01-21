@@ -37,7 +37,7 @@ for(int i=0;i<n;i++){
 }
  else
  printf("\nkhong ton tai");
-    printf("\nchỉ so của phan tu :");
+    printf("\nchỉ so của phan tu %d :", m);
     for(int i = 0;i < n; i++){
       if(a[i] == m)
       printf(" %d", i);
