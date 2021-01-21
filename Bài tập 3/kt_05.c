@@ -1,18 +1,21 @@
 #include <stdio.h>
 
 int main(void) {
-  int H, S, n , i;
+  int sc = 0, sl=0, n , i;
   printf("nhap so nguyen n :");
   scanf("%d", &n);
-  
+  int j = 0;
   for( i = 1 ; i <= n; i++){
-    if(i % 2 == 0)
-    S += i;
-  else if(i % 2 != 0)
-    H += i;
+    if(i % 2 == 0){
+      sc+=i;
+    }
+  else{
+    sl += i;
+    }
+    }
+    printf("tong chan: %d\n", sc);
+    printf("tong le : %d", sl);
   
-  }
-  printf("tong chan la %d tong le la %d", S, H);
   
   
   return 0;
