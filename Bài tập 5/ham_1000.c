@@ -10,7 +10,7 @@ void ham_b();
 int main(void) {
   int x = 3;
   printf(" %d", x);//kết quả 3 , do khai báo biến x trong main là 3
-  printf(" %d", y);// kết qua 2
+  printf(" %d", y);// kết qua 2, y khai bao trên khối khai báo được dùng cho toàn chương trình
   ham_a(x);
   ham_b();
   return 0;
@@ -23,5 +23,5 @@ void ham_a(int x){
 }
 //trả về giá trị hàm b
 void ham_b(){
-   printf(" %d", y);//kết qua 2
+   printf(" %d", y);//kết qua 2,y khai bao trên khối khai báo được dùng cho toàn chương trình
 }
