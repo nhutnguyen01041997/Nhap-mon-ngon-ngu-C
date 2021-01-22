@@ -1,0 +1,27 @@
+// khoi khai bao
+#include <stdio.h>
+
+int x = 1, y = 2; 
+
+void ham_a(int x);
+void ham_b();
+
+// khoi ham main
+int main(void) {
+  int x = 3;
+  printf(" %d", x);//kết quả 3
+  printf(" %d", y);// kết qua 3
+  ham_a(x);
+  ham_b();
+  return 0;
+}
+// khối định nghĩa hàm
+// trả về giá trị hàm a
+void ham_a(int x){
+  x = 5;
+  printf(" %d", x);//kết quả 5
+}
+//trả về giá trị hàm b
+void ham_b(){
+   printf(" %d", y);//kết qua 2
+}
