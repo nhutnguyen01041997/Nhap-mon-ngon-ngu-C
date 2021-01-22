@@ -1,0 +1,9 @@
+//khối khai báo
+#intclude<stdio.h>
+int n; //BIẾN TOÀN CỤC(SỬ DỤNG CHO TOÀN CHƯƠNG TRÌNH)(thường dùng trong khối khai báo
+//khối hàm main
+int main(){
+int n; //biến cục bộ hoặc là biến địa phương ( chỉ dùng cho tại nơi được khai báo)
+return 0;
+}
+// khối định nghĩa mảng
