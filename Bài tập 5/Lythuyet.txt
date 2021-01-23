@@ -1,0 +1,32 @@
+Câu 1: Bộ chữ trong ngôn ngữ C
+1. Chữ thường : a,b,c,d,...,z.
+2. Chữ hoa :A,B,C,D,...,Z.
+3. Mười chữ số : 0,1,2,3,...,9.
+4. Phép tính , ký hiệu : +,-,*,/,>,<,=,(,). 
+5. Ký tự đặc biệt : !,@,#,$,%,^,&,*.... 
+6. Dấu cách, khoảng trống, xuống hàng : \n,\t.
+Câu 2: các kiểu dữ liệu cơ sở trong ngôn ngữ C
+Kiểu số ngyên : int.
+kiểu số thực : float, double,long double.
+kiểu ký tự : char.
+Câu 3: khái niệm và cú pháp khai báo biến trong ngôn ngữ C.
+Khái niệm: Khai báo biến là đặt tên cho một biến, dùng để chứa dữ liệu .
+Cú pháp <Kiểu dữ liệu> <tên biến muốn đặt, mỗi tên cách nhau một ",">;
+Câu 4: khái niệm biến toàn cục và biến cục bộ trong ngôn ngữ C
+1. Biến toàn cục : được khai báo ở khối khai báo và được dùng cho cả chương trình. 
+2. Biến cục bộ : biến cục bộ được khai báo trong một khối lệnh , chỉ tồn tại và sử dụng trong khối lệnh đó.
+Câu 5: khái niệm và phân loại hàm trong ngôn ngữ C.
+Khái niệm: Hàm là một khối lệnh được xây dựng khi trong chương trình có những lệnh giống nhau.
+Phân loại: 2 loại
+1. Hàm có sẵn trong thư viện : Printf, scanf , getchar.... Được định nghĩa sẵn trong các mục stdio.h, conioh,... thông qua #include
+2. Hàm do người dùng định nghĩa : khai báo , định nghĩa , gọi hàm
+Câu 6 :  nguyên tắc hoạt động của Hàm trong ngôn ngữ C.
+Xây dựng hàm phù hợp. Gọi hàm thông qua tên hàm và phải phù hợp với định nghĩa của hàm.
+Khi thực thi Hàm :
+1. Chương trình  sẽ nhảy tới nơi định nghĩa hàm đó và thực thi các lệnh từ trên xuống dưới ở trong hàm đó.
+2.  Khi hàm thực hiện xong, chương trình tiếp tục quay về thực hiện các lệnh phía sau lời gọi hàm.
+ 
+
+
+
+
