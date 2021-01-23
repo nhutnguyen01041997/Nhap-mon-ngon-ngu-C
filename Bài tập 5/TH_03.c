@@ -19,11 +19,11 @@ int main (){
   //khoi dinh nghia ham
   float so_lon_nhat(){
   if(a>b && a>c){// dieu kien tra ve a lon nhat
-  printf("a lon nhat");
+  printf("%.f lon nhat",a);
 } else if( b>a && b>c){//dieu kien tra ve b lon nhat
-  printf("b lon nhat");
+  printf("%0.2f lon nhat",b);
   }else{// dieu kien tra ve c lon nhat
-  printf("c lon nhat");
+  printf("%0.2f lon nhat",c);
 }
 
   return 0;
