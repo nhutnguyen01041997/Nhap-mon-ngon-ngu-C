@@ -1,7 +1,7 @@
 //khoi khai bao
 #include<stdio.h>
-float a, b, c;
-float so_lon_nhat();
+int a, b, c;
+int so_lon_nhat();
 //khoi ham main
 int main (){
   //khai báo biến
@@ -17,7 +17,7 @@ int main (){
   return 0;
   }
   //khoi dinh nghia ham
-  float so_lon_nhat(){
+  int so_lon_nhat(){
   if(a>b && a>c){// dieu kien tra ve a lon nhat
   printf("a lon nhat");
 } else if( b>a && b>c){//dieu kien tra ve b lon nhat
