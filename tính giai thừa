@@ -1,0 +1,20 @@
+//khoi khai bao
+#include <stdio.h>
+int S(int n);
+//khoi ham main
+int main(void) {
+  int n;
+  printf("nhap n = ");
+  scanf("%d", &n);
+  //hien thi giai thua
+  printf("S = 1 * 2 *...* %d = %d",n, S(n));
+  return 0;
+}
+//khoi dinh nghia ham
+int S(int n){//tao dieu kien tinh giai thua
+  if(n == 0)
+  return 1;
+  else
+  return n * S(n - 1);
+  
+}
