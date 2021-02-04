@@ -1,0 +1,18 @@
+//khoi khai bao
+#include <stdio.h>
+
+
+//khoi ham main
+int main(void) {
+  int n;
+  printf("nhap n can kiem tra =");
+  scanf("%d", &n);
+
+float S = 0;
+for(float i = 1; i <= n; i++){
+  S+=1/i;
+}
+printf("S = 1/1 + 1/2+...+1/%d=%f", n, S);
+    return 0;
+}
+
