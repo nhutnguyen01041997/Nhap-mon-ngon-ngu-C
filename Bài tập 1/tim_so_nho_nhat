@@ -1,0 +1,27 @@
+//khoi khai bao
+#include <stdio.h>
+int so_nho_nhat(int a, int b, int c);
+
+//khoi ham main
+int main(void) {
+  int a, b, c;
+  printf("nhap a =");
+  scanf("%d", &a);
+  printf("nhap b =");
+  scanf("%d", &b);
+  printf("nhap c =");
+  scanf("%d", &c);
+  so_nho_nhat(a,b,c);
+  return 0;
+}
+//khoi dinh nghia
+int so_nho_nhat(int a, int b, int c){
+  if(a < b && a < c){
+    printf("so nho nhat la %d", a);
+  }
+  else if(b < a && b < c){
+    printf("so nho nhat la %d", b);
+  }else
+  printf("so nho nhat la %d", c);
+  return 0;
+}
