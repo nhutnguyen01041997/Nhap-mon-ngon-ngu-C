@@ -26,7 +26,7 @@ int main(void) {
  xuat_mang(a,n);
  printf("\n////// XOA PHAN TU ///////\n");
  printf("\nnhap vi tri muon xoa :");
- scanf("%d", &n);
+ scanf("%d", &k);
  xoa_phan_tu(a,n,k);
  printf("\nmang sau khi xoa :");
  xuat_mang(a,n);
