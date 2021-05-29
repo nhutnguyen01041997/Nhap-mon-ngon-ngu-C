@@ -4,8 +4,8 @@
 
 void nhap_mang(int a[], int n);
 void xuat_mang(int a[],int n);
-void them_phan_tu(int a[], int n,int x, int k);
-void xoa_phan_tu(int a[], int n, int k);
+void them_phan_tu(int a[], int &n,int x, int k);
+void xoa_phan_tu(int a[], int &n, int k);
 // khoi ham main
 int main(void) {
  // x là phần tử cần thêm, k là vị trí muốn thêm
@@ -45,7 +45,7 @@ void xuat_mang(int a[], int n){
      printf("%d\t", a[i]);
      }
   }  
-void them_phan_tu(int a[], int n, int x, int k){
+void them_phan_tu(int a[], int &n, int x, int k){
    // nếu k <= 0 thêm vào đầu
     if ( k < 0){
         k = 0;
@@ -63,7 +63,7 @@ void them_phan_tu(int a[], int n, int x, int k){
   //tăng số lượng phần tử sau khi thêm  
   ++n;
     }
-void xoa_phan_tu(int a[], int n, int k){
+void xoa_phan_tu(int a[], int &n, int k){
   // mãng trống
   if(n<=0){
     return;
