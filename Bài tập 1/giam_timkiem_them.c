@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void nhap_mang(int a[], int n){
 
   for(int i = 0; i < n;i++){
@@ -32,12 +33,33 @@ int tim_kiem (int a[], int n, int x){
   }
  return -1;
   }
-    
+    void ThemPhanTu(int a[], int &n, int y, int k){
+    // Mang da day, khong the them.
+    if(n >= 1000){
+        return;
+    }
+    // Neu k <= 0 thi Them vao dau
+    if(k <= 0){
+        k = 0;
+    }
+    // Neu k >= n thi Them vao cuoi
+    else if(k >= n){
+        k = n;
+    }
+    // Dich chuyen mang de tao o trong truoc khi them.
+    for(int i = n; i > k; i--){
+        a[i] = a[i-1];
+    }
+    // Chen y tai vi tri k
+    a[k] = y;
+    // Tang so luong phan tu sau khi chen.
+    n++;
+}
 int main(void) {
-  int n, x;
+  int n, x, k, y;
   printf("nhap phan tu n = ");
   scanf(" %d", &n);
-  int a[n];
+  int a[1000];
   nhap_mang(a,n);
   xuat_mang(a,n);
   giam(a,n);
@@ -46,6 +68,11 @@ int main(void) {
   printf("\nnhap so muon tim = ");
   scanf("%d", &x);
   printf("tim thay %d tai a[%d]", x ,tim_kiem(a,n,x));
-
+  printf("\nnhap gia tri muon them : ");
+  scanf("%d", &y);
+  printf("\nnhap vi tri can them : ");
+  scanf("%d", &k);
+  ThemPhanTu(a,n,y,k);
+  xuat_mang(a,n);
   return 0;
 }
